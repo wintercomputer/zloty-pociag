@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20pt;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+    color: whitesmoke;
+}
+
+#documentTitle{
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-left: 2.5%;
+
+
+    width: 95%;
+    height: 10%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#documentTitle > h1{
+    margin-bottom: 50px;
+
+}
+
+#documentTitle > hr{
+    width: 100%;
+
+}
+
+hr {
+    border: none;
+    border-top: 3px double whitesmoke;
+    color: whitesmoke;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: black;
+    content: '\1F682';
+    padding: 0 4px;
+    position: relative;
+    top: -30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+section {
+    margin-bottom: 50px;
+
+    margin-left: 10vw;
+    margin-right: 5vw;
+
+
+}
+
+section > hr {
+    margin-top: 12.5px;
+    margin-bottom: 25px;
+}
+
+aside {
+    width: 20vw;
+    margin-right: 5vw;
+
+    padding: 1vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-left: 1px solid whitesmoke;
+}
+
+aside > img {
+    width: 18vw;
+
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+
+    margin-bottom: 15px;
+}
+
+aside > p{
+    font-size: 15pt;
+}
+
+.noStyle {
+    border: none;
+    margin-right: 2px;
+}
+
+footer {
+    margin-top: 20px;
+
+    margin-left: 2.5%;
+    width: 95%;
+
+}
+
+footer > section {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    font-size: 15pt;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer > section a{
+    color: gold;
+}
+
+footer > section a:hover{
+    color: darkgoldenrod;
+}
+
+.train{
+    color: wheat;
+    font-style: italic;
+}
